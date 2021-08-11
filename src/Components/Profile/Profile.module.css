@@ -1,0 +1,35 @@
+.container {
+  margin: 20px auto;
+  width: 300px;
+  height: 100%;
+  background-color: #a1d0fc;
+}
+.image {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.description {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  height: 60px;
+  border: 1px rgb(221, 218, 218) solid;
+  background-color: rgb(250, 242, 242);
+  width: 100px;
+}
+.stats {
+  display: block;
+  text-align: center;
+}
