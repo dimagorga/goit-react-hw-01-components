@@ -4,7 +4,7 @@ function Statistics({ title, stats }) {
   return (
     <section className={s.container}>
       {title && <h2 className={s.title}>{title}</h2>}
-      <ul class={s.list}>
+      <ul className={s.list}>
         {stats.map((stat) => (
           <li
             key={stat.id}
